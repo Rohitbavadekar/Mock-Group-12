@@ -13,24 +13,7 @@ pipeline {
 				}
 			
 			}
-			stage ('Test'){
 			
-				steps {
-				
-					echo "Testing process "
-				}
-			
-			}
-			stage ('Deploy'){
-			
-				steps {
-				
-					echo "deploymemt process "
-				}
-			
-			}
-		
-		
 		}
 
 }
